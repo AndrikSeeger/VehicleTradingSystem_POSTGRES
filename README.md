@@ -15,19 +15,19 @@ To execute the application you need <a href="https://www.oracle.com/java/technol
 Having those two dependencies installed you can simply run `java -jar VehicleTradingSystem.jar` in your console. All other libraries like JDBC are included in the exported JAR-file.
 
 ### Database
-After the initial startup of the system the Postgres-database that shall be used needs to be configured. Therefore you need to create a new database in Postgres. After that you can input the 
-* URL | *Example: bc:postgresql://localhost:5432/test*
-* Username
-* Password 
-of the database into the console after the according input request.
+After the initial startup of the system the Postgres-database that shall be used needs to be configured. Therefore you need to create a new database in Postgres. After that you can input the following parameters of the database into the console after the according input request to configure the system.
+* URL | *Example: bc:postgresql://localhost:1234/test*
+* Username | *Example: postgres*
+* Password  | *Example: 1234*
 
-The initial menu looks like this:
+
+The following initial menu after a successful input looks like this:
 <p align="center">
 <img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/Startup.png"/>
 </p>
 
 ## Usage
-The usage of the program is pretty straight forward using numbers as input for the menu. The program has complete error handling for unexpected inputs with detailed messages and explanations. Please consider that semicolons are not permitted in the input of names since they are the column-separator for the CSV-files. 
+The usage of the program is pretty straight forward using numbers as input for the menu. The program has complete error handling for unexpected inputs with detailed messages and explanations.
 
 ### Close input
 To close the current input and to return to the last opened menu just press enter two times at any given point in the program.
@@ -75,10 +75,11 @@ You can filter trucks by:
 * Hydraulic system build in
 
 ## Testing
-There are unit tests available in the build. The lines of code **test coverage is at 96,2%**.
+There are unit tests available in the build. The lines of code **test coverage is at 83,1%**.
 
 ## Documentation
-The full documentation was automatically created from the in-code documentation.
+For the database implementation please refer to the in-code documentation.
+The full documentation of the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV" target="_blank">CSV-version</a> with similar features was automatically created from the in-code documentation.
 It's available <a href="Documentation" target="_blank">here</a> as linked HTML-Files, so it can be used like a website.
 
 ### Activity Diagram
@@ -107,13 +108,17 @@ The following image shows a simplified version of the **_most important use case
 
 ### UML
 
-The following image shows basic program structure with the most important classes and interfaces.
+The following image shows basic program structure with the most important classes and interfaces without the database implementation.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/UML.png"/>
 </p>
 
 ## FAQ
+* **Is there a POSIX-version (macOS/Linux) of the vehicle platform using Postgres?**
+
+    This version was developed for the use on Windows-systems. Since Postgres and the Java-Runtime are available for POSIX-like systems the usage on those is still possible with very few adaptions.
+
 * **Is the maximum amount of accounts/vehicles limited?**
  
     No, the number of accounts and vehicles is not artificially limited in code but the memory capacity on your system is limited, hence the system gets slower if you surpass your available physical memory capacity.
@@ -124,5 +129,5 @@ The following image shows basic program structure with the most important classe
     
 * **Are additional features available in the future?**
  
-    There are some experimental features like remote access which currently aren't published. A new version of the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_POSTGRES" target="_blank">Postgres-version</a> featuring those functionalities is planned. Please contact me for further information.
+    There are some experimental features like remote access which currently aren't published. A new version featuring those functionalities is planned. Please contact me for further information.
 
