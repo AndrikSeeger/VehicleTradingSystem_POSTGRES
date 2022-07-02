@@ -75,7 +75,7 @@ You can filter trucks by:
 * Hydraulic system build in
 
 ## Testing
-There are unit tests available in the build. The lines of code **test coverage is at 83,1%**.
+There are unit tests available in the build. The lines of code **test coverage is at 83,7%**.
 
 ## Documentation
 For the database implementation please refer to the in-code documentation.
