@@ -80,7 +80,7 @@ There are unit tests available in the build. The lines of code **test coverage i
 ## Documentation
 For the database implementation please refer to the in-code documentation.
 The full documentation of the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV" target="_blank">CSV-version</a> with similar features was automatically created from the in-code documentation.
-It's available <a href="[Documentation](https://github.com/AndrikSeeger/VehicleTradingSystem_CSV/tree/main/Documentation)" target="_blank">here</a> as linked HTML-Files, so it can be used like a website.
+It's available <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV/tree/main/Documentation" target="_blank">here</a> as linked HTML-Files, so it can be used like a website.
 
 ### Activity Diagram
 
