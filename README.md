@@ -84,7 +84,7 @@ The full documentation of the <a href="https://github.com/AndrikSeeger/VehicleTr
 For a deeper understanding of the implemented business logic and an abstract modelling of the program structure please refer to the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV" target="_blank">CSV-version</a>.
 
 ## FAQ
-* **Is there a POSIX-version (macOS/Linux) of the vehicle platform using Postgres?**
+* **Is there a POSIX-version (macOS/Linux) of the application using Postgres?**
 
     This version was developed for the use on Windows-systems. Since Postgres and the Java-Runtime are available for POSIX-like systems the usage on those is still possible with very few adaptions.
 
