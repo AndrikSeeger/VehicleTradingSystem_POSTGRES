@@ -79,40 +79,9 @@ There are unit tests available in the build. The lines of code **test coverage i
 
 ## Documentation
 For the database implementation please refer to the in-code documentation.
-The full documentation of the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV" target="_blank">CSV-version</a> with similar features was automatically created from the in-code documentation.
-It's available <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV/tree/main/Documentation" target="_blank">here</a> as linked HTML-Files, so it can be used like a website.
+The full documentation of the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV" target="_blank">CSV-version</a> with similar features was automatically created from the in-code documentation. It's available <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV/tree/main/Documentation" target="_blank">here</a> as linked HTML-Files, so it can be used like a website. 
 
-### Activity Diagram
-
-The following image shows the **_vehicle search process_** as an **_activity diagram_**.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/Activity_Diagram.png"/>
-</p>
-
-### Sequence Diagram
-
-The following image shows the **_vehicle search process_** as a **_sequence diagram_**.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/Sequence_Diagram.png"/>
-</p>
-
-### Use Cases
-
-The following image shows a simplified version of the **_most important use cases_** as a **_use case diagram_**.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/UseCases.png"/>
-</p>
-
-### UML
-
-The following image shows basic program structure with the most important classes and interfaces without the database implementation.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/UML.png"/>
-</p>
+For a deeper understanding of the implemented business logic and an abstract modelling of the program structure please refer to the <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_CSV" target="_blank">CSV-version</a>.
 
 ## FAQ
 * **Is there a POSIX-version (macOS/Linux) of the vehicle platform using Postgres?**
