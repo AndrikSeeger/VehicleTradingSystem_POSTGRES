@@ -102,4 +102,3 @@ For a deeper understanding of the implemented business logic and an abstract mod
 * **Are additional features available in the future?**
  
     There are some experimental features like remote access which currently aren't published. A new version featuring those functionalities is planned. Please contact me for further information.
-
