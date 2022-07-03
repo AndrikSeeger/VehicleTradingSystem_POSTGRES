@@ -23,7 +23,7 @@ After the initial startup of the system the Postgres-database that shall be used
 
 The following initial menu after a successful input looks like this:
 <p align="center">
-<img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_CSV/master/Ressources/Startup.png"/>
+<img src="https://raw.githubusercontent.com/AndrikSeeger/VehicleTradingSystem_POSTGRES/master/Ressources/Startup.png"/>
 </p>
 
 ## Usage
