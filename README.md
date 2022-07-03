@@ -76,6 +76,7 @@ You can filter trucks by:
 
 ## Testing
 There are unit tests available in the build. The lines of code **test coverage is at 75,7%**.
+The tests for the main logic without the database implementation are available <a href="https://github.com/AndrikSeeger/VehicleTradingSystem_POSTGRES/tree/main/Tests" target="_blank">here</a>.
 
 ## Documentation
 For the database implementation please refer to the in-code documentation.
